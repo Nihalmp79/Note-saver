@@ -11,25 +11,25 @@ function SideBar() {
     <div>
         <aside className='flex flex-col gap-3 border-r-2 border-gray-100 w-[150px] h-screen p-3'>
             <NavLink className={getStyle} to='/'>
-                <span class="material-symbols-outlined">    
+                <span class="material-icons-outlined">    
                     home
                 </span>
                 <span>Home</span>
             </NavLink>
             <NavLink className={getStyle} to='/archive'>
-                <span class="material-symbols-outlined">
+                <span class="material-icons-outlined">
                     archive
                 </span> 
                 <span>Archive</span>
             </NavLink>
             <NavLink className={getStyle} to='/important'>
-                <span class="material-symbols-outlined">
-                    bookmark_check
+                <span class="material-icons-outlined">
+                    bookmark
                 </span>
                 <span>Important</span>
             </NavLink>
             <NavLink className={getStyle} to='/bin'>
-                <span class="material-symbols-outlined">
+                <span class="material-icons-outlined">
                     delete
                 </span>
                 <span>Bin</span>
